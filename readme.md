@@ -35,14 +35,14 @@ was previously build to your Raspberry-Pi.
 The pin numbering of wiringpi wil be used in this description and in code. Visit
 [Raspberry Pi Pinout](http://pinout.xyz/pinout/wiringpi) for reference.
 The following pins are used for running the application on the Raspberry-Pi:
-* GPIO_07 : Servo               (output)
-* GPIO_10 : Sensor echo         (input)
-* GPIO_14 : Sensor trigger      (output)
-* GPIO_23 : Left motor forward  (output, hard PWM)
-* GPIO_25 : Left motor reverse  (output, soft PWM)
-* GPIO_26 : Right motor forward (output, hard PWM)
-* GPIO_28 : Right motor reverse (output, soft PWM)
-* GPIO_29 : Led                 (output)  
+* WiringPi 07 : Servo               (output)
+* WiringPi 10 : Sensor echo         (input)
+* WiringPi 14 : Sensor trigger      (output)
+* WiringPi 23 : Left motor forward  (output, hard PWM)
+* WiringPi 25 : Left motor reverse  (output, soft PWM)
+* WiringPi 26 : Right motor forward (output, hard PWM)
+* WiringPi 28 : Right motor reverse (output, soft PWM)
+* WiringPi 29 : Led                 (output)  
 
 ## Structure of the code
 The green colored boxes represent classes that are part of the core and are used in both simulation
